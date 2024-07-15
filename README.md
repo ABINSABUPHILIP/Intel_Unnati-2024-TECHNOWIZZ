@@ -34,14 +34,14 @@ This problem statement is designed to introduce beginners to the exciting field 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/23Jyo/SiliconSquad.git
+    git clone https://github.com/ABINSABUPHILIP/TECHNOWIZZ.git
     cd <repository-directory>
     ```
 
 2. Create a virtual environment:
     ```sh
-    python -m venv myenv
-    .\myenv\Scripts\Activate.ps1  # to activate the environment
+    python -m venv openvino_env
+    .\openvino_env\Scripts\Activate
     ```
 
 3. Install dependencies:
@@ -53,7 +53,19 @@ This problem statement is designed to introduce beginners to the exciting field 
     Follow the instructions at [Intel OpenVINO Installation Guide](https://docs.openvino.ai/latest/openvino_docs_install_guides_installing_openvino.html)
 
 ### Steps taken to create the chatbot.
+1. For conversion and optimisation of the program run 
+   ```sh
+   python conversion_optimization.py
+   ```
 
+2. For cpu inferance run the code
+    ```sh
+    python cpu_inferance.py
+    ```
+3. For running the llm on the chatbot run the code
+    ```sh
+    python chatbot.py
+    ```
 
 
 
@@ -61,24 +73,22 @@ This problem statement is designed to introduce beginners to the exciting field 
 ## Usage
 
 ## Libraries used 
--`Transformers:` For using pre-trained models and performing inference.
-
--`OpenVINO:` For optimizing and accelerating the model on Intel hardware.
-
--`Optimum Intel:` For integrating Hugging Face models with OpenVINO.
-
--`ONNX:` For exporting models to the ONNX format.
-
--`Numpy:` For numerical operations.
-
--`Torch:` PyTorch for deep learning models.
-
--`Streamlit:` is a Python library that allows you to create interactive, web-based applications for data science and machine learning projects.
-
--`onnxruntime:` is a high performance inference engine for running machine learning models in the ONNX format.
-
+- `torch:` Used for creating and training deep learning models with GPU acceleration.
+- `transformers:` Provides pre-trained models and tools for NLP tasks.
+- `openvino:` Optimizes and accelerates deep learning models on Intel hardware.
+- `optimum[openvino]:` Integrates Hugging Face models with OpenVINO for optimization.
+- `nncf:` Applies compression techniques like quantization to neural networks.
+- `gradio:` Builds interactive web interfaces for machine learning models.
+- `psutil:` Monitors system resources and processes for performance analysis.
+- `numpy:` Handles numerical operations and array manipulations.
+- `matplotlib:` Creates visualizations for data analysis and model evaluation.
 ## Team Members
 
 -   [Abin Sabu Philip](https://github.com/ABINSABUPHILIP)
 
 -   [Abhinand M](https://github.com/aiswaryarahull)
+# Demo
+### Demo 1
+https://github.com/ABINSABUPHILIP/TECHNOWIZZ/blob/main/demo%201.webm
+### Demo 2
+https://github.com/ABINSABUPHILIP/TECHNOWIZZ/blob/main/demo%202.webm
