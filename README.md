@@ -89,6 +89,8 @@ This problem statement is designed to introduce beginners to the exciting field 
 -   [Abhinand M](https://github.com/aiswaryarahull)
 # Demo
 ### Demo 1
-https://github.com/ABINSABUPHILIP/TECHNOWIZZ/blob/main/demo%201.webm
+https://github.com/ABINSABUPHILIP/TECHNOWIZZ/blob/main/demo%201.webm[demo 1.webm](https://github.com/user-attachments/assets/1d313a0c-74f8-48f3-bbeb-942aaf65224e)
+
 ### Demo 2
 https://github.com/ABINSABUPHILIP/TECHNOWIZZ/blob/main/demo%202.webm
+[demo 2.webm](https://github.com/user-attachments/assets/e9e621c5-1d6f-4f55-bdb5-e773123b026f)
