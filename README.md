@@ -86,7 +86,7 @@ This problem statement is designed to introduce beginners to the exciting field 
 
 -   [Abin Sabu Philip](https://github.com/ABINSABUPHILIP)
 
--   [Abhinand M](https://github.com/aiswaryarahull)
+-   [Abhinand M](https://github.com/m-abhinand)
 # Demo
 ### Demo 1
 https://github.com/user-attachments/assets/1d313a0c-74f8-48f3-bbeb-942aaf65224e
